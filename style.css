@@ -1,0 +1,107 @@
+/* - Family: [Epilogue](https://fonts.google.com/specimen/Epilogue)
+- Weights: 500, 700 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+.start {
+    margin-top: 40px;
+}
+.lead-text {
+    font-size: 5.2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.lead-text span{
+    display: flex;
+    align-items: flex-start;
+    /* padding-left:40px; */
+}
+.content-text {
+    width: 500px;
+    font-size: 1.2rem;
+    opacity: 70%;
+    margin-top: 100px;
+}
+.button {
+    margin-top: 80px;
+}
+.image-hero {
+    background-image: url(./images/image-hero-desktop.png);
+    /* float: left; */ 
+  background-repeat: no-repeat; 
+  width: 570px;
+  height: 120vh;
+  background-size: cover;
+}
+.brands {
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+}
+.databiz img,.audio img, .meet img,.maker img {
+    margin-right: 50px;
+}
+
+.icons {
+    padding-right:10px
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 768px) {
+
+    .image-hero {
+    background-image: url(./images/image-hero-mobile.png);
+    background-repeat: no-repeat; 
+    width: 600px;
+    height: 70vh;
+    background-size: cover;
+    }
+    .row1 {
+        margin-top: -80px;
+    }
+
+    .content-text {
+        margin-top: 0px;
+        text-align:center;
+        width: 450px;
+        margin-left: 40px;
+    }
+    .brands {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        justify-content: space-around;
+    }
+    .lead-text {
+        font-size: 3rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+        margin-top: 120px;
+    }
+    .lead-text span{
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+
+    .databiz img,.audio img, .meet img,.maker img {
+        margin-right: 30px;
+    }
+    .button {
+        margin-top: 30px;
+        margin-left: 170px;
+    }
+}
